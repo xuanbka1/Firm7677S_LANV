@@ -3,11 +3,14 @@ firmware update: mqtt
 
 uart cmd
 -  firmware:https://raw.githubusercontent.com/xuanbka1/Firm7677S_LANV/main/V001.bin#
-
-**- version TDSK_130525B ---
-- ngày phát hành: 13/05/2025**
+--------------------------------------------------------------------------------------------------------------------------------------------
+**- version TDSK_130525B**
+**- ngày phát hành: 13/05/2025**
 1. fix lỗi không thể đồng bộ thời gian với NTP server khi khởi động thiết bị ( nếu sau 15s thiết bị không đồng bộ được ntp, thiết bị tự khởi động lại)
+2. chuyển đọc gpio từ ngắt sang đọc dùng systick
+3. add thêm command lấy số điện thoại thiết bị:  sms:0912345678#
 Cập nhật bản mới nhất qua mqtt:
 -  firmware:https://raw.githubusercontent.com/xuanbka1/Firm7677S_LANV/main/TDSK_130325B.bin
-  uart cmd:
+
+ uart cmd:
 -  firmware:https://raw.githubusercontent.com/xuanbka1/Firm7677S_LANV/main/TDSK_130325B.bin#
