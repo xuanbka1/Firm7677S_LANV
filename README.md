@@ -4,6 +4,12 @@ firmware update: mqtt
 uart cmd
 -  firmware:https://raw.githubusercontent.com/xuanbka1/Firm7677S_LANV/main/V001.bin#
 --------------------------------------------------------------------------------------------------------------------------------------------
+**- version TDSK_301125**
+**- ngày phát hành: 30/11/2025**
+Cập nhật phiên bản 30/11/2025
++ Sửa lỗi reboot sau khi kết nối lại mạng 
++ Sửa lỗi Fota do re-factor code
++ Đã test chạy ổn định sau 1 tháng không bị reboot
 **- version TDSK_130525B**
 **- ngày phát hành: 13/05/2025**
 1. fix lỗi không thể đồng bộ thời gian với NTP server khi khởi động thiết bị ( nếu sau 15s thiết bị không đồng bộ được ntp, thiết bị tự khởi động lại)
